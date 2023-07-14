@@ -89,7 +89,7 @@ header {
 
 .about-me-photo {
   flex-basis: 50%;
-  background-image: url("me2.jpg");
+  background-image: url("imgs/me2.jpg");
   background-size: cover;
   background-position: center;
   height: 100%;

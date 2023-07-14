@@ -19,7 +19,7 @@ observer.observe(vidElement);
 
 function changeProject() {
   if (currentProject === 1) {
-    vidElement.src = 'JointProjectShowcase.mp4';
+    vidElement.src = 'vids/JointProjectShowcase.mp4';
     infoElement.innerHTML = `
       <h2>Endless Dungeon</h2>
       <p>My second year final project which was an endless shooter/fighter. </p>
@@ -33,7 +33,7 @@ function changeProject() {
     `;
     currentProject = 2;
   } else if (currentProject === 2) {
-    vidElement.src = 'Ui_Showcase.mp4';
+    vidElement.src = 'vids/Ui_Showcase.mp4';
     infoElement.innerHTML = `
       <h2>Mystery Game</h2>
       <p>My second year project for User Interface Programming. </p>
@@ -45,7 +45,7 @@ function changeProject() {
     `;
     currentProject = 3;
   } else if (currentProject === 3) {
-    vidElement.src = 'Erootica.mp4';
+    vidElement.src = 'vids/Erootica.mp4';
     infoElement.innerHTML = `
       <h2>Plant Dating Simulator</h2>
       <p>A game me and other students worked on in a game jam.</p>
