@@ -1,3 +1,5 @@
+/* Link to the font file */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
@@ -62,7 +64,7 @@ header {
 
 .about-me-content {
   flex-basis: 50%;
-  background-color: #BEB7DF;
+  background-color: #68C3D4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,6 +75,16 @@ header {
 .about-me-content h2 {
   font-size: 36px;
   margin-bottom: 10px;
+  color: #FFE8D1
+}
+
+.about-me-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #FFE8D1
 }
 
 .about-me-photo {
@@ -84,7 +96,7 @@ header {
 }
 
 #projects {
-  background-color: #D4F2D2;
+  background-color: #568EA3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,7 +110,7 @@ header {
   align-items: stretch;
   height: auto;
   width: 100%;
-  background-color: #D4F2D2;
+  background-color: #568EA3;
   color: #34113F;
 }
 
@@ -114,10 +126,12 @@ header {
 .project-info h2 {
   font-size: 40px;
   margin-bottom: 10px;
+  color: #FFE8D1;
 }
 
 .project-info p {
   font-size: 24px;
+  color: #FFE8D1;
 }
 
 .project-vid {
@@ -157,7 +171,7 @@ header {
 }
 
 .project-button button {
-  background-color: #34113F;
+  background-color: #826251;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -167,20 +181,39 @@ header {
 }
 
 .project-button button:hover {
-  background-color: #4D1A5C;
+  background-color: #8a6f60;
 }
 
 .social-links {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #868784;
+  background-color: #FFE8D1;
 }
 
 .social-links a {
-  margin-bottom: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.social-links a:last-child {
+  margin-right: 0; /* Remove the right margin for the last icon */
+}
+
+.social-links a img {
+  width: 220px; /* Adjust the width as needed */
+  height: 200px; 
+  border: 2px solid transparent; 
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  transition: all 0.3s ease; /* Transition effect for border and shadow */
+}
+
+.social-links a:hover img {
+  border-color: #826251; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
 }
 
 #contact {
