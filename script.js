@@ -22,7 +22,7 @@ function changeProject() {
     vidElement.src = 'vids/JointProjectShowcase.mp4';
     infoElement.innerHTML = `
       <h2>Endless Dungeon</h2>
-      <p>My second year final project which was an endless shooter/fighter. </p>
+      <p>My second year final project which was an endless shooter/fighter which inlcuded me and my duo. </p>
       <p>You can shoot enemies with different types of weapons like a rifle or shotgun,
        the enemies continue to spawn as you defeat more of them and collect score. Enemies can also use these weapons and upon defeat they can be dropped 
        whereas other enemies will drop ammo.
